@@ -36,5 +36,5 @@ func main() {
 }
 ```
 
-See [internal/cmd/cmd.go](internal/cmd/cmd.go) and
+See [examples/tnd/main.go](examples/tnd/main.go) and
 [scripts/tnd.sh](scripts/tnd.sh) for a complete example.

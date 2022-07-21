@@ -12,5 +12,5 @@ HTTP2="https://your.second.trusted.http.server.com:443"
 HASH2="SHA256 hash of HTTP2"
 SERV2="$HTTP2:$HASH2"
 
-go run ./cmd/tnd \
+go run ./examples/tnd \
 	-httpsservers "$SERV1,$SERV2"

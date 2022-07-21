@@ -1,4 +1,4 @@
-package cmd
+package main
 
 import (
 	"flag"
@@ -36,8 +36,7 @@ func parseCommandLine() {
 	}
 }
 
-// Run is the main entry point
-func Run() {
+func main() {
 	// set log level
 	log.SetLevel(log.DebugLevel)
 
